@@ -20,12 +20,12 @@ static=YouTubeMusic, 谷歌服务, img-url=https://raw.githubusercontent.com/xie
 static=TikTok, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/TikTok.png
 static=Telegram, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Telegram.png
 static=Twitter, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Twitter.png
-static=Facebook, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/other.png
-static=Discord, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/other.png
+static=Facebook, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/other.png
+static=Discord, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/other.png
 static=Instagram, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Instagram.png
 static=GitHub, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/github.png
-static=Wikipedia, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/other.png
-static=Other, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/other.png
+static=Wikipedia, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/other.png
+static=Other, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/other.png
 static=BiliBili, 大陆媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/bilibili.png
 static=BiliBiliIntl, 大陆媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/bilibili.png
 static=China, 中国大陆, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/China.png
