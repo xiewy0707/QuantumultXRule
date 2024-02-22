@@ -1,4 +1,3 @@
-[policy]
 static=默认分流, direct, 全球加速, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/SSR.png
 static=中国大陆, direct, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/China.png
 static=大陆媒体, direct, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/bilibili.png
