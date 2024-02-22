@@ -25,8 +25,8 @@ static=Instagram, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0
 static=GitHub, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/github.png
 static=Wikipedia, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/other.png
 static=Reddit, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/other.png
-static=Other, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/Netflix.png
-static=Netflix, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/other.png
+static=Other, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/other.png
+static=Netflix, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Alpha/Netflix.png
 static=BiliBili, 大陆媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/bilibili.png
 static=BiliBiliIntl, 大陆媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/bilibili.png
 static=China, 中国大陆, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/China.png
