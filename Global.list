@@ -1,1 +1,60 @@
-HOST-SUFFIX,devv.ai,GitHub
+[policy]
+static=默认分流, direct, 全球加速, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/SSR.png
+static=中国大陆, direct, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/China.png
+static=大陆媒体, direct, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/bilibili.png
+static=全球加速, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, direct, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Global.png
+static=国际媒体, 全球加速, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, direct, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/YouTube.png
+static=谷歌服务, 全球加速, 日本节点, 台湾节点, 香港节点, 韩国节点, 美国节点, 新加坡节点, direct, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=OpenAI, AI专用节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/OpenAI.png
+static=BardAI, AI专用节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/OpenAI.png
+static=Claude, AI专用节点, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/OpenAI.png
+static=Google, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=GoogleDrive, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=GoogleFCM, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=GoogleEarth, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=GoogleSearch, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=Chromecast, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=GoogleVoice, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=YouTube, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=YouTubeMusic, 谷歌服务, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Google.png
+static=TikTok, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/TikTok.png
+static=Telegram, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Telegram.png
+static=Twitter, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Twitter.png
+static=Facebook, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/other.png
+static=Discord, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/other.png
+static=Instagram, 国际媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/Instagram.png
+static=GitHub, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/github.png
+static=Wikipedia, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/other.png
+static=Other, 全球加速, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/other.png
+static=BiliBili, 大陆媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/bilibili.png
+static=BiliBiliIntl, 大陆媒体, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/bilibili.png
+static=China, 中国大陆, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/China.png
+url-latency-benchmark=日本节点, server-tag-regex=(?=.*(日|JP|(?i)Japan))^((?!(港|台|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/JP.png
+url-latency-benchmark=台湾节点, server-tag-regex=(?=.*(台|TW|(?i)Taiwan))^((?!(港|日|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/TW.png
+url-latency-benchmark=香港节点, server-tag-regex=(?=.*(港|HK|(?i)Hong))^((?!(台|日|韩|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/HK.png
+url-latency-benchmark=韩国节点, server-tag-regex=(?=.*(韩|韓|朝|KR|(?i)Korea))^((?!(港|台|日|新|美)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/KR.png
+url-latency-benchmark=美国节点, server-tag-regex=(?=.*(美|US|(?i)States|American))^((?!(港|台|日|韩|新)).)*$, check-interval=600, tolerance=0, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/US.png
+url-latency-benchmark=新加坡节点, server-tag-regex=(?=.*(新|狮|獅|SG|(?i)Singapore))^((?!(港|台|日|韩|兰|美)).)*$, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/SG.png
+url-latency-benchmark=AI专用节点, server-tag-regex=Lil 美国03, check-interval=600, tolerance=0, alive-checking=false, img-url=https://raw.githubusercontent.com/xiewy0707/mini/master/Color/OpenAI.png
+
+# NAME: Other
+HOST-SUFFIX,devv.ai,Other
+
+# NAME: Wikipedia
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2024-02-03 01:46:23
+# HOST-SUFFIX: 12
+# TOTAL: 12
+HOST-SUFFIX,mediawiki.org,Wikipedia
+HOST-SUFFIX,wikibooks.org,Wikipedia
+HOST-SUFFIX,wikidata.org,Wikipedia
+HOST-SUFFIX,wikileaks.org,Wikipedia
+HOST-SUFFIX,wikimedia.org,Wikipedia
+HOST-SUFFIX,wikinews.org,Wikipedia
+HOST-SUFFIX,wikipedia.org,Wikipedia
+HOST-SUFFIX,wikiquote.org,Wikipedia
+HOST-SUFFIX,wikisource.org,Wikipedia
+HOST-SUFFIX,wikiversity.org,Wikipedia
+HOST-SUFFIX,wikivoyage.org,Wikipedia
+HOST-SUFFIX,wiktionary.org,Wikipedia
